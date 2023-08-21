@@ -40,3 +40,6 @@ contactLink.addEventListener("click", () => {
 const openPetWorld = () => {
   window.open('https://petworld-mu.vercel.app/')
 }
+const shoppingApp = () => {
+  window.open('https://shopping-project-f3p6.vercel.app/')
+}
