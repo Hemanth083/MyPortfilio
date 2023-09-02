@@ -3,7 +3,10 @@ const height = window.innerHeight;
 
 console.log(width);
 
-const body = (document.getElementById("body").style.width = width);
+const body = (document.getElementById("body").style.width = width);    // The hight and width of the appication is given ,so it would be responsive
+
+
+// Applying a background color for the navigation bar when visit the about page
 
 const nav = document.querySelector("nav");
 document.addEventListener("scroll", () => {
@@ -25,6 +28,9 @@ var contact = document.getElementById("contact");
 
 scrollButton.addEventListener("click", moveInto);
 aboutLink.addEventListener("click", moveInto);
+
+// To create a smooth scroll 
+
 function moveInto() {
   targetElement.scrollIntoView({ behavior: "smooth" });
 }
@@ -36,6 +42,8 @@ workLink.addEventListener("click", () => {
 contactLink.addEventListener("click", () => {
   contact.scrollIntoView({ behavior: "smooth" });
 });
+
+// Links
 
 const openPetWorld = () => {
   window.open('https://petworld-mu.vercel.app/')
