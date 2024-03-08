@@ -51,3 +51,6 @@ const openPetWorld = () => {
 const shoppingApp = () => {
   window.open('https://shopping-project-f3p6.vercel.app/')
 }
+const NorthStar = () => {
+  window.open('https://north-star-react-app.vercel.app/')
+}
